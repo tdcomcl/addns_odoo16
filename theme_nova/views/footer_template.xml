@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="agency_bottom_footer" inherit_id="portal.frontend_layout">
+        <xpath expr="//footer/div[@id='footer']" position="replace">
+            <div class="oe_structure oe_structure_solo" id="footer" t-ignore="true" t-if="not no_footer">
+                <section class="s_text_block pt48 pb16" data-snippet="s_text_block" data-name="Text"
+                         style="background-image: none;">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-2 pb16">
+                                <h5>Explore</h5>
+                                <ul class="list-unstyled">
+                                    <li class="list-item py-1">
+                                        <a href="/">Home</a>
+                                    </li>
+                                    <li class="list-item py-1">
+                                        <a href="#">Our Company</a>
+                                    </li>
+                                    <li class="list-item py-1">
+                                        <a href="#">Case Studies</a>
+                                    </li>
+                                    <li class="list-item py-1">
+                                        <a href="#">Blog</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-2 pb16">
+                                <h5>Services</h5>
+                                <ul class="list-unstyled">
+                                    <li class="py-1">
+                                        <a href="#">Documentation</a>
+                                    </li>
+                                    <li class="py-1">
+                                        <a href="#">Marketplace</a>
+                                    </li>
+                                    <li class="py-1">
+                                        <a href="#">Design</a>
+                                    </li>
+                                    <li class="py-1">
+                                        <a href="#">Resources</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-2 pb16">
+
+                                <h5>Follow us</h5>
+                                <ul class="list-unstyled">
+                                    <li class="py-1">
+                                        <i class="fa fa-1x fa-fw fa-facebook-square me-2 text-secondary"/>
+                                        <a href="/website/social/facebook" target="_blank">Facebook</a>
+                                    </li>
+                                    <li class="py-1">
+                                        <i class="fa fa-1x fa-fw fa-twitter-square me-2 text-secondary"/>
+                                        <a href="/website/social/twitter" target="_blank">Twitter</a>
+                                    </li>
+                                    <li class="py-1">
+                                        <i class="fa fa-1x fa-fw fa-linkedin-square me-2 text-secondary"/>
+                                        <a href="/website/social/linkedin" target="_blank">Linkedin</a>
+                                    </li>
+                                    <li class="py-1">
+                                        <i class="fa fa-1x fa-fw fa-instagram me-2 text-secondary"/>
+                                        <a href="/website/social/instagram" target="_blank">Instagram</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="col-lg-2 pb16 cont">
+                                <h5>Address</h5>
+                                <div class="footer-contact">
+                                    <div class="footer-contact-item phone-number">
+                                        <div class="icon">
+                                            <i class="fa fa-phone text-secondary mt8 mb8"/>
+                                        </div>
+                                        <a class="contact-detail">1600 786 272</a>
+                                    </div>
+                                    <div class="footer-contact-item email-address">
+                                        <div class="icon">
+                                            <i class="fa fa-envelope text-secondary mt8 mb8"/>
+                                        </div>
+                                        <a class="contact-detail">
+                                            email@yourcompany.com
+                                        </a>
+                                    </div>
+                                    <div class="footer-contact-item business-address">
+                                        <div class="icon">
+                                            <i class="fa fa-map-marker text-secondary mt8 mb8"/>
+                                        </div>
+                                        <div class="contact-detail cont-add">110 Railway Parade,
+                                            <br/>
+                                            Seaford VIC 3198
+                                            <br/>
+                                            AUSTRALIA
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 pb16 o_colored_level" style="">
+                                <h5 class="ml32">Contact Us</h5>
+                                <section class="s_website_form pt16 pb16" data-vcss="001" data-snippet="s_website_form"
+                                         data-name="Form">
+                                    <div class="container">
+                                        <form action="/website/form/" method="post" enctype="multipart/form-data"
+                                              class="o_mark_required" data-mark="*" data-pre-fill="true"
+                                              data-success-mode="redirect" data-success-page="/contactus-thank-you"
+                                              data-model_name="crm.lead">
+                                            <div class="s_website_form_rows row s_col_no_bgcolor">
+                                                <div class="s_website_form_field mb-3 col-12  s_website_form_required  "
+                                                     data-type="char" data-name="Field">
+                                                    <div class="row s_col_no_resize s_col_no_bgcolor">
+                                                        <div class="col-sm">
+                                                            <input placeholder="Name" type="text"
+                                                                   class="form-control s_website_form_input"
+                                                                   name="contact_name" required="1"
+                                                                   data-fill-with="name" id="oip8tdwbpqxl"/>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="s_website_form_field mb-3 col-12    " data-type="tel"
+                                                     data-name="Field">
+                                                    <div class="row s_col_no_resize s_col_no_bgcolor">
+                                                        <div class="col-sm">
+                                                            <input placeholder="Phone Number" type="tel"
+                                                                   class="form-control s_website_form_input"
+                                                                   name="phone" data-fill-with="phone"
+                                                                   id="oshvcl7qggnb"/>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="s_website_form_field mb-3 col-12  s_website_form_required  "
+                                                     data-type="email" data-name="Field">
+                                                    <div class="row s_col_no_resize s_col_no_bgcolor">
+                                                        <div class="col-sm">
+                                                            <input type="email"
+                                                                   placeholder="Email"
+                                                                   class="form-control s_website_form_input"
+                                                                   name="email_from" required="1" data-fill-with="email"
+                                                                   id="oinj1y9svmp"/>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="s_website_form_field mb-3 col-12  s_website_form_required  "
+                                                     data-type="char" data-name="Field">
+                                                    <div class="row s_col_no_resize s_col_no_bgcolor">
+                                                        <div class="col-sm">
+                                                            <input type="text" class="form-control s_website_form_input"
+                                                                   placeholder="Your Company"
+                                                                   name="partner_name" required="1"
+                                                                   data-fill-with="commercial_company_name"
+                                                                   id="oyhy7xv88am7"/>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="s_website_form_field mb-3 col-12  s_website_form_model_required  "
+                                                     data-type="char" data-name="Field">
+                                                    <div class="row s_col_no_resize s_col_no_bgcolor">
+                                                        <div class="col-sm">
+                                                            <input placeholder="Subject" type="text"
+                                                                   class="form-control s_website_form_input"
+                                                                   name="name" required="true" id="ob314ivyxcph"/>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="s_website_form_field mb-3 col-12  s_website_form_required  "
+                                                     data-type="text" data-name="Field">
+                                                    <div class="row s_col_no_resize s_col_no_bgcolor">
+                                                        <div class="col-sm">
+                                                            <textarea placeholder="Question"
+                                                                      class="form-control s_website_form_input"
+                                                                      name="description" required="1" id="oiqt71f4380e"
+                                                                      rows="3"/>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="mb-0 py-2 col-12 s_website_form_submit"
+                                                     data-name="Submit Button">
+                                                    <a href="#" role="button"
+                                                       class="btn btn-secondary btn-lg s_website_form_send o_default_snippet_text">
+                                                        Submit
+                                                    </a>
+                                                    <div class="s_website_form_label"/>
+                                                    <div class="mt16 mb16">
+                                                        <span id="s_website_form_result"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </section>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </xpath>
+    </template>
+</odoo>

@@ -1,0 +1,255 @@
+
+.font-50{
+    font-size:50px;
+}
+
+.font-28{
+    font-size:28px;
+}
+
+.font-weight-bold{
+    font-weight:bolder;
+}
+
+
+.type-section{
+
+    .type-height{
+        max-height:unset;
+        @media(max-width:767px){
+            max-height:unset;
+        }
+    }
+
+    h1{
+        font-weight:bold;
+    }
+
+    .c-height {
+        min-height: 70px !important;
+    }
+
+    #text-type{
+        color:#fff;
+        display:contents;
+    }
+
+    #cursor {
+        display: inline-block;
+        vertical-align: middle;
+        width: 3px;
+        height: 50px;
+        background-color: orange;
+        animation: blink .75s step-end infinite;
+        margin-top: 10px;
+    }
+
+    .btn-theme{
+        background: rgba(255,255,255,.24);
+        border-radius: 4px;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        display: inline-block;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 18px;
+        padding: 12px 24px;
+        text-decoration: none;
+        text-shadow: none;
+        color:#fff;
+        font-weight:bold;
+        padding: 12px 24px;
+        text-transform: uppercase;
+
+    }
+}
+
+
+
+.theme-title{
+    p{
+        color:$secondary;
+        font-weight:bold;
+        font-size:20px;
+    }
+
+    h1{
+        color:$primary;
+        font-weight:bold;
+        font-size:48px;
+    }
+}
+
+#theme_tabs{
+h1 {
+    margin: 50px 0;
+    text-align: center;
+    color: $secondary;
+}
+
+
+.tabs-content {
+    color: #4a5257;
+}
+
+/* Tabs */
+
+.tabs-nav {
+    overflow: hidden;
+}
+
+.tabs-nav-items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-bottom: 3px solid $primary;
+}
+
+.tabs-nav-items:before,
+.tabs-nav-items:after {
+    content: " ";
+    display: table;
+}
+
+.tabs-nav-items:after {
+    clear: both;
+}
+
+.tabs-nav-item {
+    float: left;
+    position: relative;
+    width: 25%;
+    padding: 0;
+    cursor: pointer;
+}
+
+.tabs-nav-item:last-of-type {
+    margin-right: 0;
+}
+
+.tabs-nav-item::before {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: $primary;
+    border-radius: 3px 3px 0 0;
+    -webkit-transform: translate(0, 100%);
+    transform: translate(0, 100%);
+    transition-property: transform;
+}
+
+.tabs-nav-btn {
+    position: relative;
+    display: block;
+    outline: 0 none;
+    text-decoration: none;
+    padding: 13px 0;
+    color: #74777b;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    transition-property: color;
+    text-transform: uppercase;
+}
+
+.tabs-nav-item::before,
+.tabs-nav-btn {
+    transition-duration: 0.2s;
+    transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+}
+
+.tabs-content {
+    border-top: 0;
+    background-color: #fff;
+}
+
+.tabs-content-item {
+    display: none;
+    padding: 20px;
+}
+
+.tabs-nav-item:hover .tabs-nav-btn {
+    color: $secondary;
+}
+
+.active-tab-nav-item,
+.active-tab-nav-item:hover {
+    cursor: default;
+}
+
+.active-tab-nav-item:hover .tabs-nav-btn {
+    color: #fff;
+}
+
+.active-tab-nav-item::before {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+}
+
+.active-tab-nav-item .tabs-nav-btn {
+    cursor: default;
+    color: #fff;
+}
+
+.active-tab-content-item {
+    display: block;
+}
+
+p{
+    font-size:18px;
+}
+
+.shadow{
+    box-shadow: 0px 1px 38px -5px #00000045 !important;
+}
+
+}
+
+.floating-section{
+     position: relative;
+    .floating-img{
+        width: 25%;
+        position: absolute;
+        right: 0;
+        top: -225px;
+    }
+}
+
+#bottom{
+    .s_website_form{
+        input,textarea{
+            background:transparent !important;
+            color:#fff;
+        }
+    }
+
+    ul{
+        li{
+            a{
+                color:#fff;
+                line-height:3;
+
+                &:hover{
+                    text-decoration:none;
+                }
+            }
+        }
+    }
+
+    .cont,.cont-add{
+        color:#fff;
+        a{
+            color:#fff;
+             &:hover{
+                text-decoration:none;
+            }
+        }
+    }
+}

@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="snippet_banner" name="Nova Banner">
+        <section class="marquee">
+            <div class="bg-primary p-3">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="text-center text-white">
+                            <p class="mb0">
+                                Shop These Bundle Deals Now and Save Some $$ <strong
+                                    class="text-secondary">Click Here
+                            </strong> | Book
+                                Your Free Demo Now
+                                <strong class="text-secondary">Click Here</strong>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="s_text_image pt64 pb64 o_colored_level" data-snippet="s_text_image"
+                 data-name="Text - Image" style="background-image: none;" data-bs-original-title=""
+                 title="" aria-describedby="tooltip370242">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 pt16 pb16 o_colored_level">
+                        <h2 class="text-primary font-50">
+                            <strong>
+                                <span class="text-secondary">One System to</span>
+                                <br/>manage your
+                                <br/>
+                                business.
+                            </strong>
+
+                        </h2>
+                        <p>
+                            <span style="font-size: 18px;" class="text-black">Powering industries
+                                and companies with
+                                timesheets, project management, task management, GPS, and more, all
+                                in one system.
+                            </span>
+                            <br/>
+                        </p>
+                        <p>
+                            <br/>
+                        </p>
+                        <p>
+                            <a href="#" class="mb-2 btn btn-primary btn-lg"
+                               data-bs-original-title=""
+                               title="">Free Demo
+                            </a>
+                            <br/>
+                        </p>
+                    </div>
+                    <div class="col-lg-6 pt16 pb16 o_colored_level">
+                        <img src="/theme_nova/static/src/img/banner.jpg"
+                             class="img img-fluid mx-auto" alt="" loading="lazy"
+                             data-original-id="250"
+                             data-mimetype="image/jpeg"/>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </template>
+
+    <template id="snippet_cta" name="CTA">
+        <section
+                class="s_cover bg-black-50 pt96 pb96 o_colored_level s_parallax_no_overflow_hidden oe_img_bg o_bg_img_center"
+                data-scroll-background-ratio="0" data-snippet="s_cover" data-name="Cover"
+                style="background-image: url(&quot;/theme_nova/static/src/img/halftone.jpg&quot;);">
+            <div class="o_we_bg_filter bg-black-50"/>
+            <div class="container s_allow_columns">
+                <div class=" h-100">
+                    <div class=" text-center align-items-center">
+                        <section class="type-section">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="type-height">
+                                        <div class="col-lg-12 mb32 pl-0 text-center pt96">
+                                            <h1>
+                                                <span class="text-secondary">One System</span>
+                                                <span class="text-white">to manage your</span>
+                                                Business
+                                            </h1>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-lg-12 mb32 pl-0 text-center">
+                                        <h5 class="pt32 pb32 text-white">
+                                            Streamlined, paperless solutions for the modern
+                                            transport
+                                            company.
+                                        </h5>
+                                    </div>
+
+                                    <div class="col-lg-12 pl-0 text-center">
+
+                                        <a href="#" class="btn-theme btn btn-lg mb16 mr8 col-lg-3 col-12"
+                                           role="button">
+                                            <i class="fa fa-chevron-right mr8"/>
+                                            Fast Management
+                                        </a>
+                                        <a href="#" class="btn-theme btn btn-lg mb16 mr8 col-lg-3 col-12"
+                                           role="button">
+                                            <i class="fa fa-chevron-right mr8"/>
+                                            Speed Management
+                                        </a>
+                                        <a href="#" class="btn-theme btn btn-lg mb16 col-lg-3 col-12"
+                                           role="button">
+                                            <i class="fa fa-chevron-right mr8"/>
+                                            GPS
+                                        </a>
+                                    </div>
+
+                                    <div class="col-lg-12 mb64 pl-0 text-center">
+
+                                        <a href="#" class="btn-theme btn btn-lg mb16 mr8 col-lg-3 col-12"
+                                           role="button">
+                                            <i class="fa fa-chevron-right mr8"/>
+                                            Camera System
+                                        </a>
+                                        <a href="#" class="btn-theme btn btn-lg mb16 mr8 col-lg-3 col-12"
+                                           role="button">
+                                            <i class="fa fa-chevron-right mr8"/>
+                                            Maps
+                                        </a>
+                                        <a href="#" class="btn-theme btn btn-lg mb16 col-lg-3 col-12"
+                                           role="button">
+                                            <i class="fa fa-chevron-right mr8"/>
+                                            Maintenance
+                                        </a>
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                        </section>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </template>
+
+    <template id="snippet_tabs" name="Tabs">
+        <section class="s_title pt40 pb40 o_colored_level theme-title text-center" data-vcss="001"
+                 data-snippet="s_title" data-name="Title"
+                 style="background-image: none;">
+            <div class="container s_allow_columns">
+                <p>POWERFUL MODULES</p>
+                <h1 style="text-align: center;">
+                    One integrated paperless solution for
+                    <br/>
+                    connecting...
+                </h1>
+            </div>
+        </section>
+
+        <section class="pt64 pb32 tab-custom-theme" id="theme_tabs" data-visible="tabs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 pt32 pb32 shadow">
+                        <div class="tabs">
+                            <nav class="tabs-nav">
+                                <ul class="tabs-nav-items">
+                                    <li class="tabs-nav-item active-tab-nav-item">
+                                        <a href="#section-1" class="tabs-nav-btn">Teams</a>
+                                    </li>
+                                    <li class="tabs-nav-item">
+                                        <a href="#section-2" class="tabs-nav-btn">Compliance</a>
+                                    </li>
+                                    <li class="tabs-nav-item">
+                                        <a href="#section-3" class="tabs-nav-btn">Assets</a>
+                                    </li>
+                                    <li class="tabs-nav-item">
+                                        <a href="#section-4" class="tabs-nav-btn">Growth</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="tabs-content">
+                                <div id="section-1"
+                                     class="tabs-content-item active-tab-content-item oe_structure oe_empty">
+                                    <p>Consectetur elementum ad ante nunc ad facilisis aenean
+                                        adipiscing ipsum a a eu mi
+                                        in hac. Morbi habitant vitae rutrum tincidunt amet a
+                                        suspendisse scelerisque
+                                        vestibulum semper scelerisque cum dis nisi nostra. Fusce
+                                        parturient tellus
+                                        aliquet suspendisse parturient lorem nam scelerisque per dis
+                                        scelerisque
+                                        vestibulum tortor per in a tincidunt quis. Ultricies ligula
+                                        commodo condimentum
+                                        nam volutpat vestibulum pretium felis tristique integer eu
+                                        leo a sem dui enim.
+                                        Sagittis massa a cum ut adipiscing semper ullamcorper a odio
+                                        montes venenatis
+                                        ullamcorper id ullamcorper a hendrerit quisque conubia in
+                                        condimentum ac felis
+                                        euismod adipiscing. Fames consequat mattis tempor massa
+                                        fringilla taciti
+                                        adipiscing adipiscing cursus porttitor a adipiscing
+                                        scelerisque ut pretium purus
+                                        phasellus a vulputate ad egestas parturient vestibulum a
+                                        urna rhoncus ut
+                                        aliquam.
+                                    </p>
+                                </div>
+                                <div id="section-2" class="tabs-content-item oe_structure oe_empty">
+                                    <p>Orci vestibulum donec venenatis tempus gravida vestibulum
+                                        parturient curabitur
+                                        est ac est viverra scelerisque a inceptos leo a parturient
+                                        purus a turpis
+                                        lobortis semper condimentum phasellus vestibulum. Tempor
+                                        conubia at ullamcorper
+                                        lobortis feugiat purus ad eros a fermentum eu ultricies
+                                        dolor eu. Fusce elit a
+                                        rhoncus consequat egestas magnis eu vitae a a vivamus
+                                        venenatis commodo
+                                        condimentum torquent nec erat tempor vestibulum scelerisque
+                                        tellus magna nulla
+                                        eleifend suspendisse. Imperdiet nec nunc fusce torquent
+                                        netus erat habitasse
+                                        dictum dolor conubia a dignissim a venenatis ullamcorper
+                                        congue. Egestas tempus
+                                        a nam eleifend curabitur id augue odio ac a dui hendrerit a
+                                        euismod lectus cum
+                                        aliquet sit mattis elementum lobortis litora hac a non eu
+                                        massa. Malesuada dui
+                                        orci vestibulum a adipiscing vestibulum ipsum adipiscing
+                                        scelerisque litora
+                                        volutpat nam integer neque ultrices nam nulla tristique
+                                        sociosqu leo lacinia
+                                        ullamcorper ad sagittis.
+                                    </p>
+
+                                    <p>Platea porttitor egestas condimentum ullamcorper sociosqu
+                                        donec blandit curae
+                                        consequat mauris dictum nec parturient maecenas adipiscing.
+                                        Nam etiam vestibulum
+                                        eget habitasse scelerisque taciti consectetur nulla ut
+                                        senectus a a phasellus
+                                        senectus hac varius cum faucibus vitae viverra cras sed
+                                        adipiscing parturient.
+                                        Ornare a euismod dui sit suspendisse nisi enim pulvinar
+                                        ultrices rhoncus a
+                                        imperdiet suspendisse parturient nibh facilisi.
+                                    </p>
+                                </div>
+                                <div id="section-3" class="tabs-content-item oe_structure oe_empty">
+                                    <p>Viverra consequat lobortis fringilla nascetur dapibus dis
+                                        parturient vestibulum
+                                        sagittis parturient dis quis felis commodo senectus. Ipsum
+                                        libero et hendrerit
+                                        viverra hac lorem donec dui in a iaculis quis scelerisque
+                                        vestibulum blandit
+                                        accumsan mus scelerisque potenti dictum tempus quisque
+                                        dapibus scelerisque elit.
+                                        Ut porttitor per a a ut metus justo a ullamcorper ad nec ut
+                                        suspendisse cubilia.
+                                        Hac adipiscing vehicula condimentum aenean sem adipiscing
+                                        lacus convallis
+                                        adipiscing quis primis mi condimentum lacinia orci ac
+                                        lacinia in quam quisque
+                                        ultricies parturient platea lectus. Vel felis pretium vitae
+                                        id natoque a
+                                        convallis adipiscing posuere eu porta erat risus libero
+                                        habitant cubilia eu
+                                        feugiat condimentum. A parturient consequat nibh hac sem
+                                        elit condimentum
+                                        dictumst parturient tellus malesuada porta ullamcorper nisl
+                                        adipiscing mattis
+                                        adipiscing quam tortor mi a.
+                                    </p>
+                                </div>
+                                <div id="section-4" class="tabs-content-item oe_structure oe_empty">
+                                    <p>Vulputate per nec tempus duis a a semper taciti inceptos
+                                        placerat dapibus a ad
+                                        enim praesent vestibulum sit bibendum luctus id odio dictum
+                                        parturient
+                                        scelerisque sodales. Adipiscing id parturient maecenas
+                                        fermentum ullamcorper
+                                        dictumst amet scelerisque suspendisse dolor felis duis
+                                        dapibus adipiscing ac est
+                                        aliquet cubilia eget consectetur. Parturient a adipiscing
+                                        condimentum
+                                        consectetur varius lectus ut pulvinar a tempor erat
+                                        parturient a vestibulum
+                                        commodo habitant parturient parturient eu felis.
+                                    </p>
+
+                                    <p>Aptent dis euismod nec himenaeos nec aliquam nec convallis in
+                                        mus vestibulum duis
+                                        feugiat accumsan eu placerat a id adipiscing scelerisque. Mi
+                                        nibh donec elit a
+                                        semper cum parturient eget tellus a convallis vulputate in
+                                        sit ac cras
+                                        parturient leo tortor lorem adipiscing a. Phasellus mi
+                                        tincidunt in parturient a
+                                        parturient adipiscing et cum malesuada cras odio urna a
+                                        risus habitant id.
+                                        Molestie dictumst duis interdum neque ultricies placerat at
+                                        bibendum felis nibh
+                                        vestibulum aliquam dis cum elementum id at dignissim in.
+                                        Parturient etiam
+                                        condimentum adipiscing sed et a ac scelerisque tortor in id
+                                        varius in nisl
+                                        conubia vehicula.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12 mt64 mb64 text-primary font-28 text-center">
+                        Our team of technology consultants and developers have been
+                        <br/>
+                        responsible for
+                        many breakthroughs in the transport and workforce
+                        <br/>
+                        mobility markets.
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="snippet_integration" name="Integration">
+        <section class="s_text_image o_colored_level" data-name="Text - Image"
+                 style="background-image: none; position: relative;"
+                 data-oe-shape-data="{&quot;shape&quot;:&quot;web_editor/Blobs/11&quot;,&quot;flip&quot;:[]}">
+            <div class="o_we_shape o_web_editor_Blobs_11"/>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 pt16 pb16 o_colored_level">
+                        <img src="/theme_nova/static/src/img/work.png"
+                             class="img img-fluid mx-auto" alt="" loading="lazy"
+                             data-original-id="250" data-mimetype="image/jpeg" style=""/>
+                    </div>
+                    <div class="col-lg-6 pt16 pb16 o_colored_level">
+                        <h6 class="text-secondary font-weight-bold">CUSTOM INTEGRATIONS</h6>
+                        <h2 class="text-primary font-50">
+                            <strong>
+                                <span class="text-secondary">One System</span>
+                                to<br/>manage your
+                                <br/>
+                                business.
+                            </strong>
+                        </h2>
+                        <p>
+                            <span style="font-size: 18px;" class="text-black">Reap the benefits of
+                                increased efficiency and effectiveness in your processes.
+                            </span>
+                            <br/>
+                        </p>
+                        <p>
+                            <br/>
+                        </p>
+                        <p>
+                            <a href="#" class="mb-2 btn btn-primary btn-lg"
+                               data-bs-original-title="" title="">Learn More
+                            </a>
+                            <br/>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="snippet_certified" name="Certified">
+        <section class="s_title pt96 pb96 o_colored_level theme-title text-center" data-vcss="001"
+                 data-snippet="s_title" data-name="Title"
+                 style="background-image: none; position: relative;"
+                 data-oe-shape-data="{&quot;shape&quot;:&quot;web_editor/Blobs/12&quot;,&quot;flip&quot;:[]}">
+            <div class="o_we_shape o_web_editor_Blobs_12"/>
+            <div class="s_allow_columns col-lg-7 container">
+                <p class="text-black">
+                    TRIPLE CERTIFICATION MADE SIMPLE WITH TECHNOLOGY
+
+                </p>
+                <h1 class="text-center mt64 mb64">
+                    We’re proudly certified using our own
+                    <br/>
+                    technology.
+
+                </h1>
+                <p class="text-black">
+                    Technology to help you get certified and achieve
+                    new
+                    levels of operational
+                    <br/>productivity.
+                </p>
+            </div>
+        </section>
+        <section
+                class="s_text_image pt64 pb64 o_colored_level oe_img_bg o_bg_img_center floating-section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 offset-lg-2 pt16 pb16 o_colored_level">
+                        <img src="/theme_nova/static/src/img/ky.png"
+                             class="img img-fluid mx-auto floating-img" alt="" loading="lazy"
+                             data-original-id="250" data-mimetype="image/jpeg" style=""/>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="snippet_client" name="Clients">
+        <section class="s_references pt48 pb32 o_colored_level" data-snippet="s_references"
+                 data-name="References" style="background-image: none;">
+            <div class="container">
+                <h2 style="text-align: center;"
+                    class="o_default_snippet_text  text-primary font-weight-bold">Our References
+                </h2>
+                <p style="text-align: center;"
+                   class="o_default_snippet_text text-secondary font-weight-bold">We are in good
+                    company.
+                </p>
+                <div class="row">
+                    <div class="col-lg-2 pt16 pb16 o_colored_level">
+                        <img src="/web/image/website.s_reference_demo_image_1"
+                             class="img img-fluid mx-auto" alt="" loading="lazy"
+                             data-original-id="260"
+                             data-original-src="/website/static/src/img/snippets_demo/s_references_1.png"
+                             data-mimetype="image/png"/>
+                    </div>
+                    <div class="col-lg-2 pt16 pb16 o_colored_level">
+                        <img src="/web/image/website.s_reference_demo_image_2"
+                             class="img img-fluid mx-auto" alt="" loading="lazy"
+                             data-original-id="261"
+                             data-original-src="/website/static/src/img/snippets_demo/s_references_2.png"
+                             data-mimetype="image/png"/>
+                    </div>
+                    <div class="col-lg-2 pt16 pb16 o_colored_level">
+                        <img src="/web/image/website.s_reference_demo_image_3"
+                             class="img img-fluid mx-auto" alt="" loading="lazy"
+                             data-original-id="262"
+                             data-original-src="/website/static/src/img/snippets_demo/s_references_3.png"
+                             data-mimetype="image/png"/>
+                    </div>
+                    <div class="col-lg-2 pt16 pb16 o_colored_level">
+                        <img src="/web/image/website.s_reference_demo_image_4"
+                             class="img img-fluid mx-auto" alt="" loading="lazy"
+                             data-original-id="263"
+                             data-original-src="/website/static/src/img/snippets_demo/s_references_4.png"
+                             data-mimetype="image/png"/>
+                    </div>
+                    <div class="col-lg-2 pt16 pb16 o_colored_level">
+                        <img src="/web/image/website.s_reference_demo_image_5"
+                             class="img img-fluid mx-auto" alt="" loading="lazy"
+                             data-original-id="264"
+                             data-original-src="/website/static/src/img/snippets_demo/s_references_5.png"
+                             data-mimetype="image/png"/>
+                    </div>
+                    <div class="col-lg-2 pt16 pb16 o_colored_level">
+                        <img src="/web/image/website.s_reference_default_image_6"
+                             class="img img-fluid mx-auto" alt="" loading="lazy"
+                             data-original-id="265"
+                             data-original-src="/website/static/src/img/snippets_demo/s_references_6.png"
+                             data-mimetype="image/png"/>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </template>
+
+    <template id="snippet_assets" name="Snippet Assets" inherit_id="website.snippets">
+        <xpath expr="//div[@id='snippet_structure']//div[hasclass('o_panel_body')]" position="inside">
+            <t t-snippet="theme_nova.snippet_banner"
+               t-thumbnail="/theme_nova/static/src/img/s_icon.png"/>
+            <t t-snippet="theme_nova.snippet_cta"
+               t-thumbnail="/theme_nova/static/src/img/s_icon.png"/>
+            <t t-snippet="theme_nova.snippet_tabs"
+               t-thumbnail="/theme_nova/static/src/img/s_icon.png"/>
+            <t t-snippet="theme_nova.snippet_integration"
+               t-thumbnail="/theme_nova/static/src/img/s_icon.png"/>
+            <t t-snippet="theme_nova.snippet_certified"
+               t-thumbnail="/theme_nova/static/src/img/s_icon.png"/>
+            <t t-snippet="theme_nova.snippet_client"
+               t-thumbnail="/theme_nova/static/src/img/s_icon.png"/>
+        </xpath>
+    </template>
+</odoo>
